@@ -27,11 +27,11 @@ Partial Class frmOne
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(32, 12)
+        Me.Button1.Location = New System.Drawing.Point(90, 100)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "&Button1"
+        Me.Button1.Text = "&Divyadeet"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'frmOne
