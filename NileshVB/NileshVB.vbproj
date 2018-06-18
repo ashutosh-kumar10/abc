@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Deepak.Designer.vb">
+      <DependentUpon>Deepak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Deepak.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmOne.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Deepak.resx">
+      <DependentUpon>Deepak.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmOne.resx">
       <DependentUpon>frmOne.vb</DependentUpon>
     </EmbeddedResource>
